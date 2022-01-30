@@ -1,4 +1,5 @@
 ## Página processo seletivo Front-end
+(A página funciona bem em modo responsivo )
 
 ### Rotas
 - '/' = Página de login
