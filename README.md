@@ -1,46 +1,27 @@
-# test-frontend
-Este repositório tem como fim testar os candidatos para vaga de front-end developer.
+## Página processo seletivo Front-end
+(A página funciona bem em modo responsivo )
 
-Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
+### Rotas
+- '/' = Página de login
+- '/recovery-password' = Página de recuperação de senha
+-  '/clients' = Página com a tabela de clientes
 
-Instruções Básicas: 
+---
 
-- Faça um fork deste repositório
-- Atenção com espaçamentos e tamanhos de fonte 
-- O usuário do GitHub utilizado no exemplo pode ser qualquer um de sua escolha 
-- Ao finalizar, atualize o README.md no seu repositório com as instruções para instalar e executar sua entrega
+#### /clients
 
-### Requisitos
+##### - Header da tabela com opções de:
+- Selecionar todos
+- Ordenar por ordem crescente ou decrescente (clicando no nome da opção que deseja ordenar)
 
-O desenvolvimento precisa contemplar as 4 operações de CRUD, ou seja, inserir, selecionar, alterar e excluir um registro. 
+##### - Footer da tabela com opções de:
+- Avançar ou Retornar uma página
+- Ir para a primeira ou ultima página
+- Indicadores de quantidade de cadastros e número de páginas
 
-- Tela de login
-- Tela de recuperação senha
-- Tela de cadastro de cliente
-- Tela de exibição de cliente
-- Tela de editar cliente
-- Trabalhar com dados mockados
-- Filtrar clientes cadastrados por ordem decrescente
-- Filtro para buscar cliente por nome
+##### - Botões para adicionar, editar, deletar clientes
 
-## Stack Desejável
 
-|                                                               |   |
-|---------------------------------------------------------------|---|
-| ReatJs/NextJs                                                 | ✔ |
-| Material UI/ Style components                                 | ✔ |
-| Boa organização do código                                     | ✔ |
-| Boa estruturação do projeto                                   | ✔ |
-| Desktop First                                                 | ✔ |
-| Commit’s legíveis, não commit ATÓMICO                         | ✔ |
 
-### Como pode se destacar:
+##### - Tabela com os clientes (salvos apenas em state)
 
-- Hospedar site em alguma plataforma de sua escolha
-- Clean code
-- Saber explicar o código se necessário
-- Utilização de componentes, pensando na reutilização
-
-### Envio do teste
-
- - Suba o repositório no seu Github e envie o link com o assunto: Teste Front-End para bernardo@mpiinformatica.com
