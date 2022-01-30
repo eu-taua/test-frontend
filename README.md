@@ -16,7 +16,6 @@
 
 ##### - Footer da tabela com opções de:
 - Avançar ou Retornar uma página
-- Ir para a primeira ou ultima página
 - Indicadores de quantidade de cadastros e número de páginas
 
 ##### - Botões para adicionar, editar, deletar clientes
